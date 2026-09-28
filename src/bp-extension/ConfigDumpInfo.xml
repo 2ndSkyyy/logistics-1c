@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="c88c618a-906d-4daa-a376-4002a3cdf9e6" configVersion="25b25151399b9c78ade5d0c3b3cd76f3b031a745"/>
+		<Metadata name="Catalog.Контрагенты" id="6543afb1-68ff-489b-b1aa-ba7759aa00fa" configVersion="4b7d4c467d2624b8162ab7aef2b30e047ff6e91b"/>
+		<Metadata name="Catalog.Организации" id="93ac3549-e298-4a7b-92f4-8bb624e7b989" configVersion="6506cd49c43bd1c16faffb7477d336f1b6ccccf2"/>
+		<Metadata name="Configuration.ЛогистикаОбмен" id="94edfb54-1307-499f-bb32-0c1b600f430d" configVersion="594fcad18e5340aa9ae04e4911354b517ecffc36"/>
+		<Metadata name="DataProcessor.ЛГ_ОбменJSON" id="af5cd01e-41e0-471b-a979-4f0561501c42" configVersion="48c832e11f686ff4ac6f11b8a5acbd8e0929fc2e"/>
+		<Metadata name="DataProcessor.ЛГ_ОбменJSON.Form.Форма" id="93fa0dba-1b8d-4dba-b020-f7f79048a282" configVersion="2c88499a16aec8554122f90679f944d881be0d94"/>
+		<Metadata name="DataProcessor.ЛГ_ОбменJSON.Form.Форма.Form" id="93fa0dba-1b8d-4dba-b020-f7f79048a282.0" configVersion="e41b5e4ef68f24e4093cca9cee8ec30083ad4b06"/>
+		<Metadata name="Document.ЛГ_Заявка" id="2e5746e8-cdd5-4380-91e7-f37f75274e28" configVersion="338cec445d46a58e7fddec3068bf9cfd7931e7a0">
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.ОтправкаДокументов.Attribute.СтоимостьОтправления" id="074c7e00-49fb-41df-a189-10052327259b"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СуммаОплаты" id="08502298-7b59-40cc-98d6-dc0e7eed9f22"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СтавкаНДСИсполнителя" id="086607dd-3d28-46f0-a008-1e9c8c5deaaf"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Оплаты.Attribute.Комментарий" id="0ea72742-4e62-4f36-b6e3-802f72400c84"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Оплаты.Attribute.Сумма" id="162c1ea3-c4e3-4acb-bb17-7c1f147cce3f"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Дебиторка.Attribute.Дата" id="19eadbec-dc54-4105-836e-0268b0eb694a"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.БухгалтерскиеДокументы" id="25faaa60-3f08-45bc-b8b3-0e91dec973b4"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Дебиторка" id="28cefcef-a880-43f9-b826-5ae039f62550"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Оплаты" id="2fd8f753-9899-4799-be92-2b2fd71140d2"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Оплаты.Attribute.НомерДокумента" id="3e4cc77b-d9e4-4811-85e1-58bdfaee5a0a"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Выгрузка_Пункт" id="3e939ffd-5a45-41e9-bf46-aae4d78444f9"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.ИдентификаторЛогистики" id="561adf81-b4c6-4a08-b031-1ee61fd8e7f4"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Прицеп" id="56559bcb-ded5-4fab-8fae-6e5fbeb472aa"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СрокОплаты" id="5a367ebe-8068-4433-bc9f-99998b50879c"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.БухгалтерскиеДокументы.Attribute.Номер" id="5e4b9336-2819-4f7b-b524-c92d5da13173"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Дебиторка.Attribute.ДатаСледующего" id="63df8368-2f7a-4e20-9a2d-05412a46b319"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Оплаты.Attribute.ИдентификаторБП" id="6a61c5eb-be11-4a1f-87ac-03d85b060cf1"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.ИсполнительБезНДС" id="6ae7c862-da71-4366-bdf8-e6cbdfc203eb"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СальдоКонечное" id="6c85d631-73b1-4265-82c3-10d43bd44c09"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.БухгалтерскиеДокументы.Attribute.ВидДокумента" id="6d201d0c-ba3b-4843-b8e8-86f705cc18b4"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.ЧистаяДельта" id="74222b15-0a5c-4d74-a2f5-522bb6cb593c"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.ОтправкаДокументов.Attribute.ДатаОтправки" id="744d52c3-3b5e-44bf-ae8d-83b68517cd0e"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Договор" id="788e503f-6d39-4255-bc46-a5c56f0f0486"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Выгрузка_Дата" id="808bac6d-f514-4034-a914-1671ad3600a8"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.БухгалтерскиеДокументы.Attribute.Сумма" id="82eea70d-e7da-4e74-9956-051a202265f6"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Логист" id="88aaf171-c008-4289-9d0f-abf84620ced2"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Загрузка_Дата" id="9bde85f2-f52b-45b5-8c95-33d8f4acf09d"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.БухгалтерскиеДокументы.Attribute.Комментарий" id="9d608fdf-ac8d-4943-98d2-30ea40760cf8"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.ОтправкаДокументов" id="a3dddffc-398c-451b-8b79-f7d03d37fe00"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.ОтправкаДокументов.Attribute.ВидОтправления" id="a49aec8d-82a2-4935-baf3-36c0857633b0"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Оплаты.Attribute.Дата" id="a5bf5ae2-33a9-4c17-8100-16feb97a5487"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Организация" id="a74ab06a-0533-43e5-bdb2-2487dad54834"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.ДатаЗаявкиЛогистики" id="b07ccfca-d417-4df8-b355-f8a688db3505"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Контрагент" id="b7a7f540-28fb-42ca-a924-d2e18e9f6647"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Загрузка_Пункт" id="ba21bcc3-1fee-4f99-ac85-508455d84839"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СуммаЗаявкиБезНДС" id="c0adb12c-25be-420f-b3e2-0ff62db4da56"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.НомерЗаявки" id="c596a5e7-024e-4db5-a3ef-d7920ead888d"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СуммаЗаявки" id="c6abf23d-b876-4285-85c4-1c6ba0297c66"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.НомерЗаявкиЛогистики" id="cc0f2782-410b-439d-ad0f-ae06b66e2bc5"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СуммаИсполнителяБезНДС" id="d0c81b6c-7380-4816-92b8-237d688eafb4"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.ОтправкаДокументов.Attribute.ТрекНомер" id="d7d2ef34-cbb0-4af6-911e-0b0fc4efbb01"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.БезНДС" id="de9095fd-e4b7-41cc-b26f-267b24729026"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Тягач" id="decefa5a-b5e7-4c72-9a98-212168f92e4a"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.БухгалтерскиеДокументы.Attribute.Дата" id="e0d1f679-9f9f-46fc-acb9-e03cd070ec47"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.ОтправкаДокументов.Attribute.АдресОтправки" id="e193c7b5-5c55-4779-9907-58e795318d2e"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Отдел" id="e2b28549-cbba-485d-b31c-2f413f2940e2"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.Водитель" id="e34a9873-d209-467c-a91b-9cd096983135"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.ОтправкаДокументов.Attribute.Получено" id="e5af765e-c3b8-4696-b22d-817ac22a0e89"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СтавкаНДС" id="e6ed2d9c-a6c8-4624-b3f6-49f40d053aee"/>
+			<Metadata name="Document.ЛГ_Заявка.Attribute.СуммаИсполнителя" id="e9f02782-b31c-49c9-9f40-b7691ecf1882"/>
+			<Metadata name="Document.ЛГ_Заявка.TabularSection.Дебиторка.Attribute.Результат" id="fde36d58-6f70-4153-b49f-dcf2ed8e829c"/>
+		</Metadata>
+		<Metadata name="Document.ЛГ_Заявка.Form.ФормаДокумента" id="a2cfde0c-b6cf-4c0d-b2c9-3406da7d0c0e" configVersion="e2b48eab67d9690d7c8de3c9364406fc0f37fd78"/>
+		<Metadata name="Document.ЛГ_Заявка.Form.ФормаДокумента.Form" id="a2cfde0c-b6cf-4c0d-b2c9-3406da7d0c0e.0" configVersion="470d50b092292cb7bb9c0c9eecb6b6abee3da3c2"/>
+		<Metadata name="Document.ЛГ_Заявка.ObjectModule" id="2e5746e8-cdd5-4380-91e7-f37f75274e28.0" configVersion="336c6d45f99e7ea1064d02eb01da9a60c37fe708"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю" id="f4edae79-e774-4d8c-ba01-2c74012f2e96" configVersion="810976f6d60f3cc31b2fb5f6f66d6088f84437c9">
+			<Metadata name="Document.СчетНаОплатуПокупателю.Attribute.ЛГ_ЗаявкаОснование" id="77a9d57f-2202-43aa-9695-98f821d11f72"/>
+			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары.Attribute.СуммаНДС" id="7bec6442-aa75-4edd-be65-acf0fdcbaac2"/>
+			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары.Attribute.СтавкаНДС" id="8440b417-469b-4d15-85eb-7a01acfff96c"/>
+			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары.Attribute.Количество" id="9449bd34-fd15-4522-8ed0-d4db8edc666b"/>
+			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары.Attribute.Цена" id="9bc74a6f-df8e-40ae-ada7-4c0bbf7b2205"/>
+			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары.Attribute.Сумма" id="da02f6f5-0cc6-40d0-9a32-4b6835c9efdf"/>
+			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары.Attribute.Содержание" id="df972279-5230-4713-abd2-310e03106142"/>
+			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Товары" id="ed9c4d46-4c2a-49a8-a3fa-1fe22458e625"/>
+		</Metadata>
+		<Metadata name="Document.СчетНаОплатуПокупателю.ObjectModule" id="f4edae79-e774-4d8c-ba01-2c74012f2e96.0" configVersion="ee5c6a7576f3271aeb9a00ac45a0fab798fe7a06"/>
+		<Metadata name="Enum.СтавкиНДС" id="27528068-c7c8-4408-8aa1-c02916794a56" configVersion="1f5d6ca1529f26135b1de9580019f0e21fa3dd4a"/>
+		<Metadata name="Language.Русский" id="520b9f66-76ef-41e3-9590-ccd8007b8466" configVersion="3a8055d5b5d54785d2a30d36b16e52ae074d1d43"/>
+		<Metadata name="Subsystem.ЛГ_Логистика" id="7ffced02-96b6-4dad-8242-d3cae9f7f206" configVersion="84fd7b39e85233101b506c100b758c40c011afa7"/>
+		<Metadata name="Subsystem.ЛГ_Логистика.CommandInterface" id="7ffced02-96b6-4dad-8242-d3cae9f7f206.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

@@ -1,0 +1,38 @@
+# Базы, резервные копии и локальные сборки 1С
+*.1CD
+*.1cd
+*.dt
+*.cf
+*.cfu
+*.cfe
+*.epf
+*.erf
+*.lgd
+*.lgf
+*.lgp
+*.lck
+*.lock
+*.tmp
+*.bak
+*.log
+1Cv8Log/
+
+# Архивы не дублируют исходники в репозитории
+*.zip
+*.7z
+*.rar
+
+# Локальные настройки и временные результаты
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+Desktop.ini
+tmp/
+build/
+dist/

@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "scope": "Static structure checks only; no 1C runtime or BSL compilation",
+  "checks": [
+    "XML parsed: 35",
+    "Configuration names, kind and top-level metadata files",
+    "Local form action/event bindings: 4",
+    "Phone and email metadata corrections",
+    "Example UUIDs, dates, directions, unique row IDs and payment arithmetic",
+    "Report period query boundaries",
+    "Local Markdown links: 33",
+    "No database backups, compiled builds or nested archives"
+  ],
+  "metadata_counts": {
+    "logistics": {
+      "Language": 1,
+      "Subsystem": 1,
+      "Catalog": 7,
+      "Document": 1,
+      "Report": 1,
+      "DataProcessor": 1
+    },
+    "bp-extension": {
+      "Language": 1,
+      "Subsystem": 1,
+      "Catalog": 3,
+      "Document": 2,
+      "Enum": 1,
+      "DataProcessor": 1
+    }
+  },
+  "example": {
+    "invoices": 1,
+    "payments": 1,
+    "paid": "20000",
+    "balance": "30000"
+  },
+  "errors": [],
+  "review_date": "2026-09-28",
+  "source_comparison": {
+    "original_files": 44,
+    "unchanged_files": 41,
+    "changed_files": [
+      "src/logistics/Catalogs/Контрагенты.xml",
+      "src/logistics/Catalogs/Сотрудники.xml",
+      "src/logistics/Documents/Заявка/Forms/ФормаДокумента/Ext/Form/Module.bsl"
+    ],
+    "bp_extension_unchanged": true,
+    "json_examples_unchanged": true
+  },
+  "runtime_status": "1C not available here; manual smoke test after the three fixes and fresh installation are pending."
+}
