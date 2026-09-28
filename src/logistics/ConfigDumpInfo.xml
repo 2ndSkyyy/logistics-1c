@@ -9,7 +9,7 @@
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.НомерДоговора" id="3e48b48d-5c09-4daf-a6c2-d7523b2f9d05"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ДатаДоговора" id="dd3c45dd-4106-40af-b4ae-0710efe610b3"/>
 		</Metadata>
-		<Metadata name="Catalog.Контрагенты" id="fc0dc614-7773-4077-b0db-d6974afaeced" configVersion="e81b087e223a144b93470013e35cbabd00000000">
+		<Metadata name="Catalog.Контрагенты" id="fc0dc614-7773-4077-b0db-d6974afaeced" configVersion="4db52ff6a44c3241bf6a1f9f654cc52100000000">
 			<Metadata name="Catalog.Контрагенты.Attribute.КПП" id="229ed8bc-3c52-4a95-9f85-3a5c5c326d83"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ЭлектроннаяПочта" id="81fd070c-f783-4be3-98f1-0f9c3b76140b"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="d0e51e94-a067-4f41-8343-4efc56f259f9"/>
@@ -22,7 +22,7 @@
 			<Metadata name="Catalog.Прицепы.Attribute.ГосНомер" id="82d9b4d4-c881-4d9a-a94a-0e3cf38436bc"/>
 			<Metadata name="Catalog.Прицепы.Attribute.Собственный" id="b1a269c4-76bc-47f6-bb24-8f0e08e29620"/>
 		</Metadata>
-		<Metadata name="Catalog.Сотрудники" id="81842e32-6462-4087-82d6-badadf800dd1" configVersion="40d0d0011eff03458bb6ea10a59fa73000000000">
+		<Metadata name="Catalog.Сотрудники" id="81842e32-6462-4087-82d6-badadf800dd1" configVersion="d2bc38ce6a6b454db68f9cee36cf717c00000000">
 			<Metadata name="Catalog.Сотрудники.Attribute.Телефон" id="543cce84-4063-4b21-99d3-43f7fdf8827c"/>
 			<Metadata name="Catalog.Сотрудники.Attribute.Отдел" id="8097b08e-4b5d-4eb2-b3f6-a5d5b6b3b67b"/>
 		</Metadata>
@@ -87,8 +87,8 @@
 			<Metadata name="Document.Заявка.TabularSection.Оплаты.Attribute.НомерДокумента" id="f8f8302c-fc70-44a0-b2d9-58771152fda7"/>
 			<Metadata name="Document.Заявка.Attribute.Водитель" id="f9d98946-61bb-4ed5-99ce-4b254568b269"/>
 		</Metadata>
-		<Metadata name="Document.Заявка.Form.ФормаДокумента" id="63baeac1-0b2c-45ee-85e4-28e34a438a61" configVersion="f55f48a926765543b830a9366b9e03a700000000"/>
-		<Metadata name="Document.Заявка.Form.ФормаДокумента.Form" id="63baeac1-0b2c-45ee-85e4-28e34a438a61.0" configVersion="47d15479b8bea44f94da7068b28b0ed100000000"/>
+		<Metadata name="Document.Заявка.Form.ФормаДокумента" id="63baeac1-0b2c-45ee-85e4-28e34a438a61" configVersion="e93a3cf0a603e9478503ea504068ed2700000000"/>
+		<Metadata name="Document.Заявка.Form.ФормаДокумента.Form" id="63baeac1-0b2c-45ee-85e4-28e34a438a61.0" configVersion="65bba2d3322b7749b9f2c67c3968754c00000000"/>
 		<Metadata name="Document.Заявка.ObjectModule" id="e4bf0653-9604-41f1-abac-71d3895e3dea.0" configVersion="2a34bf6529813942bd7f281cf3b57ff700000000"/>
 		<Metadata name="Language.Русский" id="da01189c-9e35-4804-a51c-bb6c0d3aa998" configVersion="b7bb22d87a3fdb45a4fda7c1dd957e4100000000"/>
 		<Metadata name="Report.ОплатаЗаявок" id="1ea5ca35-45c5-4f23-929e-e1be9c33497f" configVersion="634ed9c5a9d2254f812a9656ef8d07c200000000"/>
