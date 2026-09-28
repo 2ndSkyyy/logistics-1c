@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "scope": "Static structure checks only; no 1C runtime or BSL compilation",
+  "scope": "Static structure checks of the reviewed source plus prepared documentation; no 1C runtime or BSL compilation in the review environment.",
   "checks": [
     "XML parsed: 35",
     "Configuration names, kind and top-level metadata files",
@@ -8,7 +8,7 @@
     "Phone and email metadata corrections",
     "Example UUIDs, dates, directions, unique row IDs and payment arithmetic",
     "Report period query boundaries",
-    "Local Markdown links: 33",
+    "Local Markdown links: 38",
     "No database backups, compiled builds or nested archives"
   ],
   "metadata_counts": {
@@ -37,7 +37,25 @@
   },
   "errors": [],
   "review_date": "2026-09-28",
-  "source_comparison": {
+  "reviewed_github_commit": "74de3c71aa099e3983dd5a4a5439a6a4a158620c",
+  "runtime_status": {
+    "source": "Author manual tests and screenshots",
+    "latest_manual_check": "2026-09-28",
+    "confirmed": [
+      "Logist selection and clearing update department",
+      "Employee phone and customer email saved",
+      "JSON exchange through both processors",
+      "Repeated reverse import: 1 invoice, 1 payment, paid 20000, balance 30000"
+    ],
+    "earlier_manual_checks": [
+      "Invoice creation and link",
+      "Full payment 50000 and zero balance",
+      "Unposting second payment and fresh reverse exchange"
+    ],
+    "fresh_installation": "Not independently confirmed",
+    "full_designer_validation": "Separate complete protocol not provided"
+  },
+  "source_comparison_at_initial_preparation": {
     "original_files": 44,
     "unchanged_files": 41,
     "changed_files": [
@@ -48,5 +66,5 @@
     "bp_extension_unchanged": true,
     "json_examples_unchanged": true
   },
-  "runtime_status": "1C not available here; manual smoke test after the three fixes and fresh installation are pending."
+  "remaining_requirement_gap": "Five reference attributes represented as strings in BP extension; numeric sign qualifiers differ. See requirements.md."
 }
